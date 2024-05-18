@@ -1,0 +1,9 @@
+C:\Users\91970>wsl
+vamsi@KolluVamsi:/mnt/c/Users/91970$ arecord vamsi.wav
+Warning: Some sources (like microphones) may produce inaudiable results
+         with 8-bit sampling. Use '-f' argument to increase resolution
+         e.g. '-f S16_LE'.
+Recording WAVE 'vamsi.wav' : Unsigned 8 bit, Rate 8000 Hz, Mono
+^CAborted by signal Interrupt...
+vamsi@KolluVamsi:/mnt/c/Users/91970$ aplay vamsi.wav
+Playing WAVE 'vamsi.wav' : Unsigned 8 bit, Rate 8000 Hz, Mono
